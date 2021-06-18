@@ -32,3 +32,23 @@ header {
 nav{
     grid-row: head;
 }
+
+figure {
+    grid-column: 1/-1;
+    grid-row: title/span 2;
+}
+
+h1 {
+    grid-row: title;
+}
+p {
+    grid-row:sub;
+}
+
+section {
+ grid-row: recent;   
+}
+
+footer {
+    grid-row:foot;
+}
